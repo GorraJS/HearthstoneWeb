@@ -1,0 +1,23 @@
+body {
+	background-image: url("../assets/imagenes/img1jpg.jpg");
+}
+
+.image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-container img {
+	max-width: 100%;
+	height: auto;
+}
+
+.texto {
+	font-family: "MedievalSharp", cursive;
+	font-weight: 60;
+	font-style: normal;
+	text-align: center;
+	font-size: 100px;
+	color: #d78107;
+}

@@ -1,0 +1,19 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px; 
+	text-align: center; 
+}
+
+.grid div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.grid img {
+	width: 150px; 
+	height: auto; 
+}
+
+

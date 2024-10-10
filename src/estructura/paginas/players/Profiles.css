@@ -1,0 +1,12 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); 
+	gap: 20px; 
+	justify-items: center; 
+	align-items: center;   
+	height: 100vh; 
+}
+
+.grid div {
+	text-align: center; 
+}
