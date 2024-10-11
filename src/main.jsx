@@ -31,7 +31,7 @@ createRoot(document.getElementById('root')).render(
         <Routes>
           <Route path='/' element={<Inicio/>}/>
           <Route path='/album' element={<Cards/>}/>
-          <Route path='/heroes' element={<heroes/>}/>
+          <Route path='/heroes' element={<Heroes/>}/>
           <Route path='/modes' element={<Modos/>}/>
           <Route path='/tutorial' element={<Tutorial/>}/>
           <Route path='/profiles' element={<Profiles/>}/>

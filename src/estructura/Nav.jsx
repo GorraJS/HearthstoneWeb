@@ -10,7 +10,7 @@ import {
 function Nav() {
 	return (
 		<>
-			<nav>
+			<nav className="nav">
 				<ul>
 					<li>
 						<img

@@ -1,5 +1,12 @@
 body {
-	background-image: url("../assets/imagenes/img1jpg.jpg");
+	background-image: url("../assets/imagenes/img3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
 }
 
 .image-container {

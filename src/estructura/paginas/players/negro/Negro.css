@@ -1,0 +1,19 @@
+.custom-card {
+    width: 300px;
+    height: auto; 
+    margin: 20px; 
+}
+.custom-card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+}
+
+.text {
+	font-family: "MedievalSharp", cursive;
+	font-weight: 60;
+	font-style: normal;
+	text-align: center;
+	font-size: 100px;
+	color: #d78107;
+}

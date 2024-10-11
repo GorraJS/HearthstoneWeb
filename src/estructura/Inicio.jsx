@@ -16,7 +16,7 @@ function Inicio() {
 			<div className="image-container">
 				<img src={Titulo} alt="Hearthstone Title" />
 			</div>
-			<h1 className="texto"><strong>Juego de Cartas</strong></h1>
+			{/* <h1 className="texto"><strong>Juego de Cartas</strong></h1> */}
 		</>
 	);
 }
