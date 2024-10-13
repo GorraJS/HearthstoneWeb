@@ -1,7 +1,8 @@
 import Nav from "../../../Nav";
-import Brujo from "../../../../assets/imagenes/Brujo.webp";
 import { useEffect, useState } from "react";
 import "./Gorra.css";
+
+import Brujo from "../../../../assets/imagenes/HeroIcon/Brujo.webp";
 
 import BabosaAlquitra from "./mazo/BabosaDeAlquitran.png";
 import BebidaSalud from "./mazo/BebidaDeSalud.png";
@@ -29,17 +30,16 @@ function Gorra() {
 
 	return (
 		<>
-			<div className="pagina">
+			<div className="paginaGorra">
 				<Nav />
 				<div className="portada">
 					<p>
 						<img
 							src={Brujo}
 							alt="Mago"
-							style={{ width: "450px", height: "auto" }}
+							style={{ width: "300px", height: "auto" }}
 						/>
 						<h1 className="name">Gorra</h1>
-						<h2 className="userName">Gorra #114117</h2>
 					</p>
 				</div>
 
@@ -48,7 +48,7 @@ function Gorra() {
 				<div class="grid">
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={BabosaAlquitra}
 							alt="carta"
 						/>
@@ -56,7 +56,7 @@ function Gorra() {
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={BombaEspiritual}
 							alt="carta"
 						/>
@@ -64,7 +64,7 @@ function Gorra() {
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={DiablilloLlamas}
 							alt="carta"
 						/>
@@ -72,14 +72,14 @@ function Gorra() {
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={VendedorMilagroso}
 							alt="carta"
 						/>
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={DrenarAlma}
 							alt="carta"
 						/>
@@ -87,14 +87,14 @@ function Gorra() {
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={Malabarista}
 							alt="carta"
 						/>
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={BebidaSalud}
 							alt="carta"
 						/>
@@ -102,14 +102,14 @@ function Gorra() {
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={Gorgorzormu}
 							alt="carta"
 						/>
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={GuardianaTentaculo}
 							alt="carta"
 						/>
@@ -117,21 +117,21 @@ function Gorra() {
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={Shaffar}
 							alt="carta"
 						/>
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={PactoDelCallejon}
 							alt="carta"
 						/>
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={SuccionarAlma}
 							alt="carta"
 						/>
@@ -139,56 +139,56 @@ function Gorra() {
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={CubiculoCarnivoro}
 							alt="carta"
 						/>
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={DracoPiedra}
 							alt="carta"
 						/>
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={LiNa}
 							alt="carta"
 						/>
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={Vona}
 							alt="carta"
 						/>
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={Marin}
 							alt="carta"
 						/>
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={Lord}
 							alt="carta"
 						/>
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={SeñoraTerror}
 							alt="carta"
 						/>
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={VacioAbisal}
 							alt="carta"
 						/>
@@ -196,7 +196,7 @@ function Gorra() {
 					</div>
 					<div>
 						<img
-							style={{ width: "280px", height: "auto" }}
+							style={{ width: "250px", height: "auto" }}
 							src={GiganteFundido}
 							alt="carta"
 						/>

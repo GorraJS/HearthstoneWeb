@@ -1,5 +1,5 @@
 import Nav from "../../../Nav"
-import CaballeroMuerteFoto from "../../../../assets/imagenes/CaballeroMuerte.webp"
+import CaballeroMuerteFoto from "../../../../assets/imagenes/HeroIcon/CaballeroMuerte.webp"
 
 function Julio () {
     return (

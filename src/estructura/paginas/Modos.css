@@ -1,0 +1,47 @@
+.paginaModos {
+	background-image: url("../../assets/imagenes/img2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+.tituloModo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	font-family: "MedievalSharp", cursive;
+	color: #9e4500;
+	text-shadow: 3px 3px 0px black;
+}
+
+.imgFormatClassic {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.txt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+	font-family: "MedievalSharp", cursive;
+	color: #ff7e1c;
+	text-shadow: 3px 3px 0px black;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px; 
+}
+
+.grid div {
+	text-align: center; 
+}

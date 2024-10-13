@@ -16,62 +16,64 @@ import Druida from "../../assets/heroes/Druida.webp";
 function Heroes() {
 	return (
 		<>
-			<Nav />
-			<div class="grid">
-				<div>
-					<a href="/heroes/caballero-muerte">
-						<img src={Caballero}/>
-					</a>
-				</div>
-				<div>
-					<a href="/heroes/brujo">
-						<img src={Brujo} />
-					</a>
-				</div>
-				<div>
-					<a href="/heroes/picaro">
-						<img src={Picaro} />
-					</a>
-				</div>
-				<div>
-					<a href="/heroes/cazador-demonios">
-						<img src={CazadorDemonios} />
-					</a>
-				</div>
-				<div>
-					<a href="/heroes/cazador">
-						<img src={Cazador} />
-					</a>
-				</div>
-				<div>
-					<a href="/heroes/mago">
-						<img src={Mago} />
-					</a>
-				</div>
-				<div>
-					<a href="/heroes/chaman">
-						<img src={Chaman} />
-					</a>
-				</div>
-				<div>
-					<a href="/heroes/paladin">
-						<img src={Paladin} />
-					</a>
-				</div>
-				<div>
-					<a href="/heroes/sacerdote">
-						<img src={Sacerdote} />
-					</a>
-				</div>
-				<div>
-					<a href="/heroes/guerrero">
-						<img src={Guerrero} />
-					</a>
-				</div>
-				<div>
-					<a href="/heroes/druida">
-						<img src={Druida} />
-					</a>
+			<div className="paginaHeroes">
+				<Nav />
+				<div class="grid">
+					<div>
+						<a href="/heroes/caballero-muerte">
+							<img src={Caballero} />
+						</a>
+					</div>
+					<div>
+						<a href="/heroes/brujo">
+							<img src={Brujo} />
+						</a>
+					</div>
+					<div>
+						<a href="/heroes/picaro">
+							<img src={Picaro} />
+						</a>
+					</div>
+					<div>
+						<a href="/heroes/cazador-demonios">
+							<img src={CazadorDemonios} />
+						</a>
+					</div>
+					<div>
+						<a href="/heroes/cazador">
+							<img src={Cazador} />
+						</a>
+					</div>
+					<div>
+						<a href="/heroes/mago">
+							<img src={Mago} />
+						</a>
+					</div>
+					<div>
+						<a href="/heroes/chaman">
+							<img src={Chaman} />
+						</a>
+					</div>
+					<div>
+						<a href="/heroes/paladin">
+							<img src={Paladin} />
+						</a>
+					</div>
+					<div>
+						<a href="/heroes/sacerdote">
+							<img src={Sacerdote} />
+						</a>
+					</div>
+					<div>
+						<a href="/heroes/guerrero">
+							<img src={Guerrero} />
+						</a>
+					</div>
+					<div>
+						<a href="/heroes/druida">
+							<img src={Druida} />
+						</a>
+					</div>
 				</div>
 			</div>
 		</>

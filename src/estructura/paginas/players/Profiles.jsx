@@ -14,7 +14,7 @@ function Profiles() {
 						<div>
 							<img
 								src={Mago}
-								style={{ width: "300px", height: "auto" }}
+								style={{ width: "150px", height: "auto" }}
 							/>
 							<h3 className="name">Negro</h3>
 						</div>
@@ -23,7 +23,7 @@ function Profiles() {
 						<div>
 							<img
 								src={ReyExamine}
-								style={{ width: "300px", height: "auto" }}
+								style={{ width: "150px", height: "auto" }}
 							/>
 							<h3 className="name">Julio</h3>
 						</div>
@@ -32,7 +32,7 @@ function Profiles() {
 						<div>
 							<img
 								src={Brujo}
-								style={{ width: "300px", height: "auto" }}
+								style={{ width: "150px", height: "auto" }}
 							/>
 							<h3 className="name">Gorra</h3>
 						</div>

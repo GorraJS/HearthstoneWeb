@@ -1,3 +1,14 @@
+.paginaHeroes{
+	background-image: url("../../assets/imagenes/img9.jpg");
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+
 .grid {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
