@@ -20,7 +20,7 @@ function Heroes() {
 			<div class="grid">
 				<div>
 					<a href="/heroes/caballero-muerte">
-						<img src={Caballero} />
+						<img src={Caballero}/>
 					</a>
 				</div>
 				<div>
