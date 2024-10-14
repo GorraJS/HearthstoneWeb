@@ -24,27 +24,27 @@ function Nav() {
 				</ul>
 				<ul>
 					<li>
-						<a href="/tutorial" class="outline">
+						<a href="/tutorial" className="outline">
 							Tutorial
 						</a>
 					</li>
 					<li>
-						<a href="/album" class="outline">
+						<a href="/album" className="outline">
 							Album
 						</a>
 					</li>
 					<li>
-						<a href="/heroes" class="outline">
+						<a href="/heroes" className="outline">
 							Heroes
 						</a>
 					</li>
 					<li>
-						<a href="/modes" class="outline">
+						<a href="/modes" className="outline">
 							Modes
 						</a>
 					</li>
 					<li>
-						<a href="/profiles" class="outline">
+						<a href="/profiles" className="outline">
 							Profiles
 						</a>
 					</li>

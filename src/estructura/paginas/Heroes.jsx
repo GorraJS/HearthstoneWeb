@@ -18,7 +18,7 @@ function Heroes() {
 		<>
 			<div className="paginaHeroes">
 				<Nav />
-				<div class="grid">
+				<div className="grid">
 					<div>
 						<a href="/heroes/caballero-muerte">
 							<img src={Caballero} />

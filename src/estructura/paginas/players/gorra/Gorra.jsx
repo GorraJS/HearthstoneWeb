@@ -36,7 +36,7 @@ function Gorra() {
 					<p>
 						<img
 							src={Brujo}
-							alt="Mago"
+							alt="Brujo"
 							style={{ width: "300px", height: "auto" }}
 						/>
 						<h1 className="name">Gorra</h1>
@@ -45,7 +45,7 @@ function Gorra() {
 
 				{/*------------------------------------------------*/}
 				<h3 className="mazoTxt">Mazo</h3>
-				<div class="grid">
+				<div className="grid">
 					<div>
 						<img
 							style={{ width: "250px", height: "auto" }}

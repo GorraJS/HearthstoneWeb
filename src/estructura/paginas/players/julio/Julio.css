@@ -1,0 +1,73 @@
+
+.paginaJulio{
+    background-image: url("../../../../assets/imagenes/img12.jpg");
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+.portada {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; 
+}
+
+.portada img {
+	max-width: 100%; 
+	height: auto;
+}
+
+.name {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+    font-size: 70px;
+    font-family: "MedievalSharp", cursive;
+	color: #ff7e1c;
+    text-shadow: 3px 3px 0px black;
+}
+
+.userName {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	font-family: "MedievalSharp", cursive;
+	font-weight: 10;
+	font-style: normal;
+	text-align: center;
+	font-size: 60px;
+	color: #ff7e1c;
+    text-shadow: 3px 3px 0px black;
+
+}
+
+.mazoTxt{
+    display: flex;
+	justify-content: center;
+	align-items: center; 
+	font-family: "MedievalSharp", cursive;
+	font-style: normal;
+	text-align: center;
+	font-size: 60px;
+	color: #d4640f;
+    text-shadow: 3px 3px 0px black;
+}
+
+.cantidad{
+    font-family: "MedievalSharp", cursive;
+    text-align: center;
+    font-style: normal;
+    font-size: 50px;
+    color: #ff7e1c;
+    text-shadow: 3px 3px 0px black;
+}
+
+.grid{
+	height: auto;
+	width: auto;
+}

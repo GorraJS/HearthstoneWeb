@@ -1,4 +1,3 @@
-import { Route, Routes, BrowserRouter, useNavigate } from "react-router-dom";
 import Nav from "../Nav";
 import "./Modos.css";
 
@@ -36,7 +35,7 @@ function Modos() {
 						/>
 					</div>
 					<h1 className="txt">Formatos</h1>
-					<div class="grid">
+					<div className="grid">
 						<div>
 							<img src={Standard} />
                             

@@ -9,7 +9,7 @@ function Profiles() {
 		<>
 			<div className="cuerpo">
 				<Nav />
-				<div class="grid">
+				<div className="grid">
 					<a href="/profiles/negro">
 						<div>
 							<img

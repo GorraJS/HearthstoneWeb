@@ -37,13 +37,13 @@ function Gorra() {
 							alt="Mago"
 							style={{ width: "300px", height: "auto" }}
 						/>
-						<h1 className="name">Negro</h1>
+						<h1 className="name">FROZONO</h1>
 					</p>
 				</div>
 
 				{/*------------------------------------------------*/}
 				<h3 className="mazoTxt">Mazo</h3>
-				<div class="grid">
+				<div className="grid">
 					<div>
 						<img
 							style={{ width: "250px", height: "auto" }}

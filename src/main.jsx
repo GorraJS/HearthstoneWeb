@@ -1,6 +1,5 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
 import { Route, Routes, BrowserRouter, useNavigate } from 'react-router-dom'
 
 import Inicio from './estructura/Inicio'
@@ -51,7 +50,6 @@ createRoot(document.getElementById('root')).render(
           <Route path='/heroes/paladin' element={<Paladin/>}/>
           <Route path='/heroes/picaro' element={<Picaro/>}/>
           <Route path='/heroes/sacerdote' element={<Sacerdote/>}/>
-
         </Routes>
       </BrowserRouter>
   </StrictMode>,
