@@ -7,26 +7,26 @@ import {
 	Link,
 } from "react-router-dom";
 
+
+
 function Nav() {
+	const navegar = useNavigate()
+
 	return (
 		<>
 			<nav className="nav">
 				<ul>
-					<li>
+					<li> 
 						<img
 							src={Logo}
 							alt="Logo de la aplicación"
 							width={120}
 							height={120}
 						/>
-						<a href="/">Hearthstone</a>
+					<button onClick={() => navegar("/")}>Hearthstone</button>
 					</li>
-				</ul>
-				<ul>
 					<li>
-						<a href="/tutorial" className="outline">
-							Tutorial
-						</a>
+					<button onClick={() => navegar("/tutorial")}>Tutorial</button>
 					</li>
 					<li>
 						<a href="/album" className="outline">

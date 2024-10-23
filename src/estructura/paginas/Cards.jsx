@@ -2,22 +2,22 @@ import Nav from "../Nav";
 import "./Cards.css";
 import { useEffect, useState } from "react";
 
-import Warlock from "../../assets/heroTitles/Warlock_-_Header_icon.webp";
-
 function Cards() {
 	const [allCards, setAllCards] = useState([]);
 	const [manaCost, setManaCost] = useState(0);
-	const [clase, setClase] = useState("warlock");
+	const [clase, setClase] = useState("");
 	const [stopLoading, setStopLoading] = useState(false);
+	const [img, setImg] = useState("");
+	const [buscar, setBuscar] = useState("");
 
 	const fetchCards = (manaCost) => {
 		fetch(
-			`https://us.api.blizzard.com/hearthstone/cards?locale=es_MX&class=${clase}&manaCost=${manaCost}&access_token=US10K02HGGU2nOmCemWP8ct2Vatk0Ib1E8`
+			`https://us.api.blizzard.com/hearthstone/cards?locale=es_MX&class=${clase}&manaCost=${manaCost}&textFilter=${buscar}&access_token=USbhMD0Ii553KSCoyysjpLew3EMUFpb4T3`
 		)
 			.then((res) => res.json())
 			.then((data) => {
 				if (data.cards && data.cards.length > 0) {
-					setAllCards((prev) => [...prev, ...data.cards]);
+					setAllCards((prevCards) => [...prevCards, ...data.cards]);
 				}
 				if (manaCost === 10) {
 					setStopLoading(true);
@@ -37,18 +37,144 @@ function Cards() {
 		}
 	}, [manaCost, stopLoading]);
 
+	const Class = (event) => {
+		const value = event.target.value;
+		setClase(value);
+		setManaCost(0);
+		setAllCards([]);
+		setStopLoading(false);
+	};
+
+	const Busqueda = (event) => {
+		setBuscar(event.target.value);
+		setAllCards([])
+		setManaCost(0)
+		setStopLoading(false)
+	};
+
 	return (
 		<>
 			<div className="cuerpoCards">
 				<Nav />
 				<input
 					type="search"
-					name="search"
 					placeholder="Buscar cartas"
-					aria-label="Search"
+					value={buscar}
+					onChange={Busqueda}
 				/>
 
-					<img src={Warlock} />
+				<fieldset>
+					<legend className="Titulo">Heroes:</legend>
+					<div class="heroes-container">
+						<label>
+							<input
+								type="radio"
+								name="language"
+								value="warlock"
+								onClick={Class}
+							/>
+							Brujo
+						</label>
+						<label>
+							<input
+								type="radio"
+								name="language"
+								value="deathknight"
+								onClick={Class}
+							/>
+							Caballero de la Muerte
+						</label>
+						<label>
+							<input
+								type="radio"
+								name="language"
+								value="hunter"
+								onClick={Class}
+							/>
+							Cazador
+						</label>
+						<label>
+							<input
+								type="radio"
+								name="language"
+								value="demonhunter"
+								onClick={Class}
+							/>
+							Cazador de Demonios
+						</label>
+						<label>
+							<input
+								type="radio"
+								name="language"
+								value="shaman"
+								onClick={Class}
+							/>
+							Chaman
+						</label>
+						<label>
+							<input
+								type="radio"
+								name="language"
+								value="druid"
+								onClick={Class}
+							/>
+							Druida
+						</label>
+						<label>
+							<input
+								type="radio"
+								name="language"
+								value="warrior"
+								onClick={Class}
+							/>
+							Guerrero
+						</label>
+						<label>
+							<input
+								type="radio"
+								name="language"
+								value="mage"
+								onClick={Class}
+							/>
+							Mago
+						</label>
+						<label>
+							<input
+								type="radio"
+								name="language"
+								value="paladin"
+								onClick={Class}
+							/>
+							Paladin
+						</label>
+						<label>
+							<input
+								type="radio"
+								name="language"
+								value="rogue"
+								onClick={Class}
+							/>
+							Picaro
+						</label>
+						<label>
+							<input
+								type="radio"
+								name="language"
+								value="priest"
+								onClick={Class}
+							/>
+							Sacerdote
+						</label>
+					</div>
+				</fieldset>
+
+				<center>
+					<img
+						src={img}
+						className="heroLogo"
+						style={{ width: "450px", height: "auto" }}
+					/>
+				</center>
 
 				<div className="grid">
 					{allCards.map((elem) => (

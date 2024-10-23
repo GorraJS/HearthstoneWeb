@@ -1,5 +1,5 @@
 .paginaModos {
-	background-image: url("../../assets/imagenes/img2.jpg");
+	background-image: url("../../assets/imagenes/img18.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 	align-items: center;
 	font-size: 40px;
 	font-family: "MedievalSharp", cursive;
-	color: #9e4500;
+	color: #df9a31;
 	text-shadow: 3px 3px 0px black;
 }
 
@@ -37,11 +37,23 @@
 }
 
 .grid {
+	justify-content: start;
+	align-content: start;
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	gap: 10px; 
 }
 
-.grid div {
-	text-align: center; 
+.formatTitle{
+	font-size: 50px;
+	font-family: "MedievalSharp", cursive;
+	color: rgb(255, 98, 0);
+	text-shadow: 2px 2px 2px black;
+}
+
+.descripcion{
+	font-size: 30px;
+	font-family: "MedievalSharp", cursive;
+	color: rgb(255, 175, 55);
+	text-shadow: 2px 2px 0px black;
 }

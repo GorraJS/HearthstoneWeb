@@ -1,7 +1,6 @@
 .nav {
     background-color: black;
-    padding: 0 20px; 
-    width: calc(100% - 40px);
+    width: calc(100% - 10px);
     margin: 0 auto; 
     box-sizing: border-box; 
 }
@@ -11,21 +10,11 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
     margin: 0;
 }
 
-li {
-    margin: 0 10px;
+.boton{
+    font-family: "MedievalSharp", cursive;;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
 
-.outline {
-    border: 1px solid white;
-    padding: 8px 16px;
-    border-radius: 5px;
-}
