@@ -13,8 +13,8 @@ import Standard from "../../assets/gameModes/Year_of_the_Wolf.webp";
 import Classic from "../../assets/gameModes/Classic_icon_large.webp";
 import Wild from "../../assets/gameModes/Wild_icon_large.webp";
 import SoloAdventurePic from "../../assets/gameModes/Solo_Adventures_screen_2020-08-17.webp";
-import DuelsLogo from "../../assets/gameModes/Duels_logo.webp"
-import TBLogo from "../../assets/gameModes/tb-allstarsquad.jpg"
+import DuelsLogo from "../../assets/gameModes/Duels_logo.webp";
+import TBLogo from "../../assets/gameModes/tb-allstarsquad.jpg";
 
 function Modos() {
 	return (
@@ -28,208 +28,221 @@ function Modos() {
 								src={Constructed}
 								style={{ width: "60px", height: "auto" }}
 							/>
-							Clasico
+							<a>Clasico</a>
 						</p>
 					</summary>
-					<div className="imgFormatClassic">
-						<img
-							src={GameModes}
-							style={{ width: "900px", height: "auto" }}
-						/>
-					</div>
-					<h1 className="txt">Formatos</h1>
-
-					<div>
-						<center>
+					<div className="grid1">
+						<div className="imgFormatClassic">
 							<img
-								src={Standard}
-								style={{ width: "150px", height: "auto" }}
+								src={GameModes}
+								style={{ width: "900px", height: "auto" }}
 							/>
-							<h1 className="formatTitle">Standard</h1>
-						</center>
+						</div>
+						<h1 className="txt">Formatos</h1>
 
-						<ul className="descripcion">
-							<li>
-								Rotación de expansiones: Solo están disponibles
-								las cartas de las últimas expansiones lanzadas
-								en los últimos dos años, además del conjunto
-								básico actualizado, conocido como el Conjunto
-								Esencial. Cada año, en una nueva expansión, las
-								expansiones más antiguas rotan y ya no son
-								jugables en Estándar. Esta rotación ocurre
-								cuando comienza un nuevo año en Hearthstone
-							</li>
-							<li>
-								Conjunto Esencial: El Conjunto Esencial es un
-								conjunto gratuito de cartas que se actualiza
-								cada año. Está compuesto por cartas clásicas,
-								básicas y algunas nuevas. Este conjunto
-								reemplazó el antiguo sistema de cartas Básicas y
-								Clásicas. Estas cartas están disponibles para
-								todos los jugadores y proporcionan una base
-								sólida para la construcción de mazos.
-							</li>
-							<li>
-								Cartas válidas: Solo las cartas del Conjunto
-								Esencial y las expansiones recientes son válidas
-								en el formato Estándar. Las cartas de
-								expansiones que hayan rotado a Salvaje ya no
-								pueden usarse en este formato.
-							</li>
-							<li>
-								Balance y equilibrio: Como el conjunto de cartas
-								es más pequeño en comparación con el formato
-								Salvaje (que incluye todas las cartas de todas
-								las expansiones), el formato Estándar tiende a
-								ser más fácil de equilibrar, lo que lo hace más
-								adecuado para el juego competitivo y los
-								torneos.
-							</li>
-							<li>
-								Fomento del juego competitivo: El formato
-								Estándar es el principal formato utilizado en
-								los torneos oficiales y en el sistema de
-								partidas igualadas (ranked). Es donde ocurre la
-								mayoría de los ajustes de equilibrio y es la
-								modalidad más jugada por los jugadores que
-								buscan competir al más alto nivel.
-							</li>
-							<li>
-								Rotación anual: Cuando comienza un nuevo año de
-								Hearthstone, las expansiones que cumplieron dos
-								años salen del formato Estándar y solo se pueden
-								jugar en Salvaje. Esto mantiene el meta dinámico
-								y obliga a los jugadores a experimentar con
-								nuevas estrategias y cartas.
-							</li>
-						</ul>
-					</div>
+						<div>
+							<center>
+								<img
+									src={Standard}
+									style={{ width: "150px", height: "auto" }}
+								/>
+								<h1 className="formatTitle">Standard</h1>
+							</center>
 
-					<div>
-						<center>
-							<img
-								src={Classic}
-								style={{ width: "150px", height: "auto" }}
-							/>
-							<h1 className="formatTitle">Classic</h1>
-						</center>
-						<ul className="descripcion">
-							<li>
-								Cartas originales: Todas las cartas tienen sus
-								estadísticas y efectos originales, lo que
-								significa que cualquier cambio de equilibrio
-								(buffs o nerfs) que se haya realizado después
-								del lanzamiento no afecta a este formato. Las
-								cartas están en su estado original de 2014.
-							</li>
-							<li>
-								Sin expansiones posteriores: Solo están
-								disponibles las cartas básicas y clásicas, que
-								fueron las que existieron cuando el juego se
-								lanzó.
-							</li>
-							<li>
-								Experiencia nostálgica: Este formato está
-								diseñado para que los jugadores puedan
-								experimentar Hearthstone como era en su etapa
-								inicial, antes de la llegada de nuevas cartas,
-								mecánicas y expansiones.
-							</li>
-							<li>
-								Formato no competitivo: Aunque puedes disfrutar
-								del modo Clásico en partidas igualadas (ranked),
-								no es parte del sistema competitivo principal de
-								Hearthstone, que gira en torno a los formatos
-								Estándar y Salvaje.
-							</li>
-							<li>
-								Acceso a cartas: Si tienes cartas de la
-								colección Clásica, automáticamente las tienes
-								disponibles en este modo, pero en sus versiones
-								originales.
-							</li>
-						</ul>
-					</div>
+							<ul className="descripcion">
+								<li>
+									Rotación de expansiones: Solo están
+									disponibles las cartas de las últimas
+									expansiones lanzadas en los últimos dos
+									años, además del conjunto básico
+									actualizado, conocido como el Conjunto
+									Esencial. Cada año, en una nueva expansión,
+									las expansiones más antiguas rotan y ya no
+									son jugables en Estándar. Esta rotación
+									ocurre cuando comienza un nuevo año en
+									Hearthstone
+								</li>
+								<li>
+									Conjunto Esencial: El Conjunto Esencial es
+									un conjunto gratuito de cartas que se
+									actualiza cada año. Está compuesto por
+									cartas clásicas, básicas y algunas nuevas.
+									Este conjunto reemplazó el antiguo sistema
+									de cartas Básicas y Clásicas. Estas cartas
+									están disponibles para todos los jugadores y
+									proporcionan una base sólida para la
+									construcción de mazos.
+								</li>
+								<li>
+									Cartas válidas: Solo las cartas del Conjunto
+									Esencial y las expansiones recientes son
+									válidas en el formato Estándar. Las cartas
+									de expansiones que hayan rotado a Salvaje ya
+									no pueden usarse en este formato.
+								</li>
+								<li>
+									Balance y equilibrio: Como el conjunto de
+									cartas es más pequeño en comparación con el
+									formato Salvaje (que incluye todas las
+									cartas de todas las expansiones), el formato
+									Estándar tiende a ser más fácil de
+									equilibrar, lo que lo hace más adecuado para
+									el juego competitivo y los torneos.
+								</li>
+								<li>
+									Fomento del juego competitivo: El formato
+									Estándar es el principal formato utilizado
+									en los torneos oficiales y en el sistema de
+									partidas igualadas (ranked). Es donde ocurre
+									la mayoría de los ajustes de equilibrio y es
+									la modalidad más jugada por los jugadores
+									que buscan competir al más alto nivel.
+								</li>
+								<li>
+									Rotación anual: Cuando comienza un nuevo año
+									de Hearthstone, las expansiones que
+									cumplieron dos años salen del formato
+									Estándar y solo se pueden jugar en Salvaje.
+									Esto mantiene el meta dinámico y obliga a
+									los jugadores a experimentar con nuevas
+									estrategias y cartas.
+								</li>
+							</ul>
+						</div>
 
-					<div>
-						<center>
-							<img
-								src={Wild}
-								style={{ width: "150px", height: "auto" }}
-							/>
-							<h1 className="formatTitle">Wild</h1>
-						</center>
-						<ul className="descripcion">
-							<li>
-								Todas las cartas disponibles: En Salvaje, puedes
-								usar cartas de todas las expansiones y aventuras
-								de Hearthstone, desde el lanzamiento del juego
-								hasta las expansiones más recientes. Esto
-								incluye cartas que ya no están disponibles en el
-								formato Estándar debido a la rotación anual.
-							</li>
-							<li>
-								Sin rotación: A diferencia del formato Estándar,
-								donde las expansiones rotan fuera del formato
-								después de aproximadamente dos años, en Salvaje
-								nada rota, lo que significa que siempre puedes
-								usar cartas de cualquier expansión anterior.
-							</li>
-							<li>
-								Combinaciones de cartas más amplias: Dado que
-								todas las cartas están disponibles, las
-								estrategias y sinergias pueden ser mucho más
-								diversas. Esto permite a los jugadores crear
-								mazos con interacciones complejas entre cartas
-								antiguas y nuevas. Sin embargo, esto también
-								puede hacer que el formato sea más caótico o
-								impredecible, ya que algunas combinaciones
-								pueden ser muy poderosas o difíciles de
-								contrarrestar.
-							</li>
-							<li>
-								Meta menos controlado: El formato Salvaje suele
-								tener un meta menos controlado que el Estándar.
-								Esto se debe a la gran cantidad de cartas
-								disponibles, lo que puede hacer que algunas
-								estrategias sean extremadamente dominantes.
-								Blizzard realiza ajustes de balance con menos
-								frecuencia en Salvaje, ya que su enfoque
-								principal de equilibrio suele estar en el
-								formato Estándar.
-							</li>
-							<li>
-								Competitivo, pero menos equilibrado: Aunque
-								Salvaje es competitivo y tiene su propio sistema
-								de partidas igualadas (ranked), el enfoque de
-								los torneos oficiales y el juego competitivo de
-								más alto nivel está en el formato Estándar. Sin
-								embargo, hay torneos y competiciones dedicados
-								exclusivamente al formato Salvaje, pero estos
-								suelen ser menos frecuentes.
-							</li>
-							<li>
-								Diversión y nostalgia: Salvaje es el formato
-								ideal para los jugadores que quieren disfrutar
-								de una mayor variedad de cartas y que disfrutan
-								del juego más caótico y nostálgico. Permite
-								revivir estrategias de expansiones pasadas que
-								fueron icónicas o experimentar con combos que ya
-								no se pueden jugar en Estándar.
-							</li>
-							<li>
-								Estrategias poderosas y cartas olvidadas: En
-								Salvaje, algunos mazos pueden ser extremadamente
-								poderosos porque combinan cartas que fueron
-								balanceadas o ajustadas para Estándar en
-								diferentes momentos. Esto crea una diversidad de
-								mazos que pueden ser más fuertes que los de
-								Estándar. A su vez, también es un espacio donde
-								muchas cartas que ya no ven juego en Estándar
-								pueden tener un lugar, ofreciendo más variedad
-								en la construcción de mazos.
-							</li>
-						</ul>
+						<div>
+							<center>
+								<img
+									src={Classic}
+									style={{ width: "150px", height: "auto" }}
+								/>
+								<h1 className="formatTitle">Classic</h1>
+							</center>
+							<ul className="descripcion">
+								<li>
+									Cartas originales: Todas las cartas tienen
+									sus estadísticas y efectos originales, lo
+									que significa que cualquier cambio de
+									equilibrio (buffs o nerfs) que se haya
+									realizado después del lanzamiento no afecta
+									a este formato. Las cartas están en su
+									estado original de 2014.
+								</li>
+								<li>
+									Sin expansiones posteriores: Solo están
+									disponibles las cartas básicas y clásicas,
+									que fueron las que existieron cuando el
+									juego se lanzó.
+								</li>
+								<li>
+									Experiencia nostálgica: Este formato está
+									diseñado para que los jugadores puedan
+									experimentar Hearthstone como era en su
+									etapa inicial, antes de la llegada de nuevas
+									cartas, mecánicas y expansiones.
+								</li>
+								<li>
+									Formato no competitivo: Aunque puedes
+									disfrutar del modo Clásico en partidas
+									igualadas (ranked), no es parte del sistema
+									competitivo principal de Hearthstone, que
+									gira en torno a los formatos Estándar y
+									Salvaje.
+								</li>
+								<li>
+									Acceso a cartas: Si tienes cartas de la
+									colección Clásica, automáticamente las
+									tienes disponibles en este modo, pero en sus
+									versiones originales.
+								</li>
+							</ul>
+						</div>
+
+						<div>
+							<center>
+								<img
+									src={Wild}
+									style={{ width: "150px", height: "auto" }}
+								/>
+								<h1 className="formatTitle">Wild</h1>
+							</center>
+							<ul className="descripcion">
+								<li>
+									Todas las cartas disponibles: En Salvaje,
+									puedes usar cartas de todas las expansiones
+									y aventuras de Hearthstone, desde el
+									lanzamiento del juego hasta las expansiones
+									más recientes. Esto incluye cartas que ya no
+									están disponibles en el formato Estándar
+									debido a la rotación anual.
+								</li>
+								<li>
+									Sin rotación: A diferencia del formato
+									Estándar, donde las expansiones rotan fuera
+									del formato después de aproximadamente dos
+									años, en Salvaje nada rota, lo que significa
+									que siempre puedes usar cartas de cualquier
+									expansión anterior.
+								</li>
+								<li>
+									Combinaciones de cartas más amplias: Dado
+									que todas las cartas están disponibles, las
+									estrategias y sinergias pueden ser mucho más
+									diversas. Esto permite a los jugadores crear
+									mazos con interacciones complejas entre
+									cartas antiguas y nuevas. Sin embargo, esto
+									también puede hacer que el formato sea más
+									caótico o impredecible, ya que algunas
+									combinaciones pueden ser muy poderosas o
+									difíciles de contrarrestar.
+								</li>
+								<li>
+									Meta menos controlado: El formato Salvaje
+									suele tener un meta menos controlado que el
+									Estándar. Esto se debe a la gran cantidad de
+									cartas disponibles, lo que puede hacer que
+									algunas estrategias sean extremadamente
+									dominantes. Blizzard realiza ajustes de
+									balance con menos frecuencia en Salvaje, ya
+									que su enfoque principal de equilibrio suele
+									estar en el formato Estándar.
+								</li>
+								<li>
+									Competitivo, pero menos equilibrado: Aunque
+									Salvaje es competitivo y tiene su propio
+									sistema de partidas igualadas (ranked), el
+									enfoque de los torneos oficiales y el juego
+									competitivo de más alto nivel está en el
+									formato Estándar. Sin embargo, hay torneos y
+									competiciones dedicados exclusivamente al
+									formato Salvaje, pero estos suelen ser menos
+									frecuentes.
+								</li>
+								<li>
+									Diversión y nostalgia: Salvaje es el formato
+									ideal para los jugadores que quieren
+									disfrutar de una mayor variedad de cartas y
+									que disfrutan del juego más caótico y
+									nostálgico. Permite revivir estrategias de
+									expansiones pasadas que fueron icónicas o
+									experimentar con combos que ya no se pueden
+									jugar en Estándar.
+								</li>
+								<li>
+									Estrategias poderosas y cartas olvidadas: En
+									Salvaje, algunos mazos pueden ser
+									extremadamente poderosos porque combinan
+									cartas que fueron balanceadas o ajustadas
+									para Estándar en diferentes momentos. Esto
+									crea una diversidad de mazos que pueden ser
+									más fuertes que los de Estándar. A su vez,
+									también es un espacio donde muchas cartas
+									que ya no ven juego en Estándar pueden tener
+									un lugar, ofreciendo más variedad en la
+									construcción de mazos.
+								</li>
+							</ul>
+						</div>
 					</div>
 				</details>
 				<hr />
@@ -240,9 +253,10 @@ function Modos() {
 								src={Arena}
 								style={{ width: "65px", height: "auto" }}
 							/>
-							Arena
+							<a>Arena</a>
 						</p>
 					</summary>
+					<div className="grid1">
 					<center>
 						<img src={ArenaKeys} />
 					</center>
@@ -329,20 +343,27 @@ function Modos() {
 							exitoso.
 						</li>
 					</ul>
+					</div>
+
 				</details>
 				<hr />
 				<details>
 					<summary>
+					
 						<p className="tituloModo">
 							<img
 								src={SoloAdventues}
 								style={{ width: "65px", height: "auto" }}
 							/>
-							Solo Adventures
+							<a>Solo Adventures</a>
 						</p>
 					</summary>
+					<div className="grid1">
 					<center>
-						<img src={SoloAdventurePic} style={{ width: "600px", height: "auto" }}/>
+						<img
+							src={SoloAdventurePic}
+							style={{ width: "600px", height: "auto" }}
+						/>
 					</center>
 					<ul className="descripcion">
 						<li>
@@ -403,20 +424,26 @@ function Modos() {
 							específicas que solo se podían obtener de esa forma.
 						</li>
 					</ul>
+					</div>
 				</details>
 				<hr />
 				<details>
 					<summary>
+
 						<p className="tituloModo">
 							<img
 								src={Duels}
 								style={{ width: "65px", height: "auto" }}
 							/>
-							Duels
+							<a>Duels</a>
 						</p>
 					</summary>
+					<div className="grid1">
 					<center>
-						<img src={DuelsLogo} style={{ width: "600px", height: "auto" }}/>
+						<img
+							src={DuelsLogo}
+							style={{ width: "600px", height: "auto" }}
+						/>
 					</center>
 					<ul className="descripcion">
 						<li>
@@ -475,6 +502,7 @@ function Modos() {
 							modos.
 						</li>
 					</ul>
+					</div>
 				</details>
 				<hr />
 				<details>
@@ -484,11 +512,16 @@ function Modos() {
 								src={TavernBrawl}
 								style={{ width: "65px", height: "auto" }}
 							/>
-							Tavern Brawl
+							<a>Tavern Brawl</a>
 						</p>
 					</summary>
+					<div className="grid1">
+
 					<center>
-						<img src={TBLogo} style={{ width: "600px", height: "auto" }}/>
+						<img
+							src={TBLogo}
+							style={{ width: "600px", height: "auto" }}
+						/>
 					</center>
 					<p className="descripcion">
 						El Modo "Tavern Brawl" (Pelea de Taberna), ofrece
@@ -596,6 +629,7 @@ function Modos() {
 							partidas impredecibles.
 						</li>
 					</ul>
+					</div>
 				</details>
 			</div>
 		</>
