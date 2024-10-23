@@ -7,46 +7,44 @@ import {
 	Link,
 } from "react-router-dom";
 
-
-
 function Nav() {
-	const navegar = useNavigate()
+	const navegar = useNavigate();
 
 	return (
 		<>
 			<nav className="nav">
 				<ul>
-					<li> 
+					<li>
 						<img
 							src={Logo}
 							alt="Logo de la aplicación"
 							width={120}
 							height={120}
 						/>
-					<button onClick={() => navegar("/")}>Hearthstone</button>
+						<button onClick={() => navegar("/")}>
+							Hearthstone
+						</button>
 					</li>
 					<li>
-					<button onClick={() => navegar("/tutorial")}>Tutorial</button>
+						<button onClick={() => navegar("/tutorial")}>
+							Tutorial
+						</button>
 					</li>
 					<li>
-						<a href="/album" className="outline">
-							Album
-						</a>
+						<button onClick={() => navegar("/album")}>Album</button>
 					</li>
 					<li>
-						<a href="/heroes" className="outline">
+						<button onClick={() => navegar("/heroes")}>
 							Heroes
-						</a>
+						</button>
 					</li>
 					<li>
-						<a href="/modes" className="outline">
-							Modes
-						</a>
+						<button onClick={() => navegar("/modes")}>Modes</button>
 					</li>
 					<li>
-						<a href="/profiles" className="outline">
+						<button onClick={() => navegar("/profiles")}>
 							Profiles
-						</a>
+						</button>
 					</li>
 				</ul>
 			</nav>
