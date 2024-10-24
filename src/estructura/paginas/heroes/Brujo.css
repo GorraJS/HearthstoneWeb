@@ -1,0 +1,17 @@
+.cuerpoBrujo{
+    background-image: url("../../../assets/imagenes/img1.jpg");
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0; 
+}
+.text{
+	font-family: "MedievalSharp", cursive;
+    text-align: center;
+    font-style: normal;
+    font-size: 50px;
+    color: #ff7e1c;
+    text-shadow: 3px 3px 0px black;
+}
